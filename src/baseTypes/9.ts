@@ -2,19 +2,16 @@
   Створіть новий тип даних, який підходить для цих двох об'єктів.
 */
 
-type Info = {
+type Page = {
   title: string;
   likes: number;
   accounts: string[];
   status: string;
-}
-
-type Details = {
+  details?: {
   createAt: Date;
   updateAt: Date;
 }
-
-type Page = Info & Partial<Details>;
+}
 
 const page1: Page = {
   title: 'The awesome page',
