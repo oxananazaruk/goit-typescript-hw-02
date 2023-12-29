@@ -14,5 +14,5 @@ enum IsWeekend {
 };
 
 function isWeekend(day:IsWeekend) {
-  return day === IsWeekend.Suturday || IsWeekend.Sunday;
+  return day === IsWeekend.Suturday || day === IsWeekend.Sunday;
 };
