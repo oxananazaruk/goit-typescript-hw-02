@@ -4,13 +4,13 @@
 */
 
 enum IsWeekend {
-  Monday = "false",
-  Tuesday = "false",
-  Wednesday = "false",
-  Thursday = "false",
-  Friday = "false",
-  Suturday = "true",
-  Sunday = "true",
+  Monday,
+  Tuesday,
+  Wednesday,
+  Thursday,
+  Friday,
+  Suturday,
+  Sunday,
 };
 
 function isWeekend(day:IsWeekend) {
